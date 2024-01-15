@@ -34,7 +34,8 @@ class ProductRequest extends FormRequest
         return [
             "product_code.required" => "Tolong diinput lah tong",
             "product_code.unique" => "Kode :attribute sudah pernah dipakai coy",
-            "product_name.required" => "Tolong isi nama"
+            "product_name.required" => "Tolong isi nama",
+            "category_id.required" => "Tolong pilih kategori"
         ];
     }
 }
